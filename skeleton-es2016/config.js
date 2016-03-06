@@ -2,16 +2,16 @@ System.config({
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
-    "optional": [
-      "es7.decorators",
-      "es7.classProperties"
-    ]
+    "ignore": ["github:*", "npm:*"],
+    "stage": 0,
+    "optional": []
   },
   paths: {
-    "*": "dist/*",
-    "github:*": "jspm_packages/github/*",
-    "npm:*": "jspm_packages/npm/*"
+    "github:*": "https://cdn.rawgit.com/jdanyow/aurelia-bundle/v1.0.0/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/jdanyow/aurelia-bundle/v1.0.0/jspm_packages/npm/*",
+    "aurelia-bundle": "https://cdn.rawgit.com/jdanyow/aurelia-bundle/v1.0.0/dist/aurelia-bundle"
   },
+
   bundles: {
     "aurelia-bundle": [
       "zzzz",
