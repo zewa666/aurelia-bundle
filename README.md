@@ -3,7 +3,7 @@
 ## update skelly...
 
 ```shell
-jspm install aurelia-polyfills aurelia-animator-css aurelia-binding aurelia-bootstrapper aurelia-dependency-injection aurelia-dialog aurelia-event-aggregator aurelia-fetch-client aurelia-framework aurelia-history aurelia-history-browser aurelia-http-client aurelia-loader aurelia-loader-default aurelia-logging aurelia-logging-console aurelia-metadata aurelia-path aurelia-route-recognizer aurelia-router aurelia-task-queue aurelia-templating aurelia-templating-binding aurelia-templating-resources aurelia-templating-router aurelia-validation bootstrap css fetch font-awesome moment numeral text
+jspm install aurelia-polyfills aurelia-animator-css aurelia-binding aurelia-bootstrapper aurelia-dependency-injection aurelia-dialog aurelia-event-aggregator aurelia-fetch-client aurelia-framework aurelia-history aurelia-history-browser aurelia-http-client aurelia-loader aurelia-loader-default aurelia-logging aurelia-logging-console aurelia-metadata aurelia-path aurelia-route-recognizer aurelia-router aurelia-task-queue aurelia-templating aurelia-templating-binding aurelia-templating-resources aurelia-templating-router aurelia-validation bootstrap css fetch font-awesome text
 ```
 
 ## cheat file
@@ -33,8 +33,6 @@ import 'aurelia-templating-resources';
 import 'aurelia-templating-router';
 import 'css';
 import 'fetch';
-import 'moment';
-import 'numeral';
 import 'text';
 ```
 

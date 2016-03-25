@@ -23,6 +23,4 @@ import 'aurelia-templating-resources';
 import 'aurelia-templating-router';
 import 'css';
 import 'fetch';
-import 'moment';
-import 'numeral';
 import 'text';
